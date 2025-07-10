@@ -5,9 +5,8 @@
     margin-top: -210px;
     position: relative;
     width: 100%;
-    height: 55vh; /* Ajuste a altura conforme necessário */
+    height: 75vh; /* Ajuste a altura conforme necessário */
     overflow:hidden;
-  
     z-index: -1;
   }
   
@@ -26,10 +25,10 @@
 /* Responsive */
 @media (max-width: 415px) {
   .container-videoBg {
-    margin-top: -375px; /* Mantido, mas verifique se é o valor desejado */
+    margin-top: -230px; /* Mantido, mas verifique se é o valor desejado */
     position: relative;
     width: 100%;
-    height: 20vh!important; /* Mantido, ajuste conforme necessário */
+    height: 40vh!important; /* Mantido, ajuste conforme necessário */
     overflow: hidden;
     z-index: -1 !important; /* Mantido, mas evite !important se possível */
   }

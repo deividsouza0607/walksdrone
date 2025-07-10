@@ -7,27 +7,19 @@
   margin: 0;
   padding: 0;
   box-sizing: content-box;
- 
   font-family: "Ubuntu Sans Mono", monospace;
   font-optical-sizing: auto;
-
   font-style: normal;
 
-  
 }
 
 body {
- 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- 
   background-color: #9c9c9c;
   background-size: cover;
-  
 }
-
-
 
 .whatsapp-button {
   position: fixed;
@@ -48,9 +40,7 @@ body {
 
 .whatsapp-button img {
   width: 41px;
-  
 }
-
 
 .whatsapp-button:hover {
   width: 61px;
@@ -59,162 +49,14 @@ body {
 }
 
 
-/*Estilização Container ROlagem  Paatrocinadores*/
-/* Estilização Container Rolagem Paatrocinadores */
-
-header{
-  background-color: #000000;
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-}
-.logo{
-
-  width: 58px;
-  height: 58px;
-  
-  
-}
-/*Estilização Menu */
-
-.container-menu {
-  background-color: #000000;
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
-  gap: 10px;
-  height: 120px;
-  margin-top: 0px;
-  
-}
-
-nav {
-  position: relative;
-  width: 523px;
-  height: 50px;
-  background: #516377e9;
-  border-radius: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-nav a {
-  
-  position: relative;
-  display: inline-block;
-  font-size: 19px;
-  font-weight: 500;
-  color: #000000;
-  text-decoration: none;
-  padding: 0 23px;
-  z-index: 1;
-}
-
-nav span {
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 523px;
-  height: 100%;
-  background: #e1e4e6;
-  border-radius: 5px;
-  transition: 0.5s;
-}
-nav a:nth-child(1):hover ~ span {
-  left: 60px;
-  width: 44px;
-}
-
-nav a:nth-child(2):hover ~ span {
-  left: 146px;
-  width: 67px;
-}
-
-nav a:nth-child(3):hover ~ span {
-  left: 254px;
-  width: 89px;
-}
-
-nav a:nth-child(4):hover ~ span {
-  left: 386px;
-  width: 78px;
-}
-
-li, a, button {
-
-  font-weight: 500;
-  font-size: 16px;
-  color: #edf0f1;
-  text-decoration: none;
-}
-
-/*Estilização Titulo */
-.container-home {
-  
-  margin-top: 0px;
-  gap: 20px;
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
-  color: #ffffff;
-  
-}
-
-.container-home h1{
-  font-size: 40px;
-  color: #ffffff;
-  margin-top: 20px;
-  
-}
-
-
-/*Estilização SubTitulo */
-.conteudo-subtitulo {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  justify-items: center;
-  margin-top: -12px;
-  margin-bottom: 0px;
-  padding: 10px;
-  font-size: 16px;
-  color: #ffffffd2;
-
-}
-.container-servicos-titulo{
-  padding: 20px;
-  height: 20px;
-  font-size: 15px;
-  background-color: #010101b5;
-}
-/*container subtitulo Services*/
-
-.container-servicos-titulo h2{
-  margin-top: -6px;
-   letter-spacing: 3px;
-   display: flex;
-   justify-content: center;
-   justify-items: center;
-   color: rgb(250, 250, 250);
-  font-size: 25px;
- }
-
-
 /* Estilização Container Rolagem Patrocinadores */
 .barra-patrocinadores {
   display: flex;
   justify-content: center;
   justify-items: center;
-  background-color: #0338877e;
+  background-color: #07183f82;
   overflow: hidden; /* Adicionado para esconder o overflow da animação */
   white-space: nowrap; /* Impede que os itens quebrem para a próxima linha */
-
 }
 
 .container-patrocinadores {
@@ -244,68 +86,215 @@ li, a, button {
   }
 }
 
+
+header{
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.logo{
+  width: 58px;
+  height: 58px;
+}
+/*Estilização Menu */
+
+.container-menu {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+  height: 120px;
+  margin-top: 0px;
+}
+
+nav {
+  position: relative;
+  width: 523px;
+  height: 50px;
+  background: #516377e9;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+  position: relative;
+  display: inline-block;
+  font-size: 19px;
+  font-weight: 500;
+  color: #000000;
+  text-decoration: none;
+  padding: 0 23px;
+  z-index: 1;
+}
+
+nav span {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 523px;
+  height: 100%;
+  background: #e1e4e6;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+nav a:nth-child(1):hover ~ span {
+  left: 50px;
+  width: 48px;
+}
+
+nav a:nth-child(2):hover ~ span {
+  left: 141px;
+  width: 77px;
+}
+
+nav a:nth-child(3):hover ~ span {
+  left: 260px;
+  width: 89px;
+}
+
+nav a:nth-child(4):hover ~ span {
+  left: 393px;
+  width: 78px;
+}
+
+li, a, button {
+
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+/*Estilização Titulo */
+.container-home {
+  margin-top: 20px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+ 
+}
+
+.container-home h1{
+  font-size: 40px;
+  color: #ffffff;
+  margin-top: 0px;
+}
+
+
+/*Estilização SubTitulo */
+.conteudo-subtitulo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px;
+  font-size: 16px;
+  color: #ffffffd2;
+ 
+}
+
+/*container  Services*/
+.texto-services{
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 8px;
+   
+}
+.container-servicos-titulo{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  padding: 20px;
+  height: 20px;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #010101b5;
+}
+/*container subtitulo Services*/
+
+
 .container-servicos {
   display: flex;
   justify-self: stretch;
   justify-content: center;
   gap: 100px;
-  height: 450px;
+  height: 480px;
   background-color:rgb(0, 0, 0);
-  
   }
+
+
+.solicite-orcamento-titulo{
+width: 300px;
+margin-left: 50px;
+}
 
 .container-conteudo1{
   display: flex;
   justify-content: center;
   text-align: justify;
   margin-top: -15px;
-  width: 200px;
-  margin-left: 100px;
+  width: 300px;
+  margin-left: 45px;
   color: white;
-  font-size: 11px;
- 
+  font-size: 14px;
+  height: 150px;
 }
+
 .conteudo1{
   text-align: center;
-  margin-top: 100px;
-  width: 400px;
-  height: 230px;
+  margin-top: 50px;
+  width: 380px;
+  height: 380px;
   color: #0a8703;
-  
   
 }
 
+.conteudo1, img3{
+  margin-left: 100px;
+  background-color: #7673733a;
+}
+
  h3{
+  margin-left: 100px;
   margin-top: -0px;
-  font-size: 17px;
+  font-size: 19px;
   color: rgb(255, 255, 255)!important;
   margin-bottom: 30px;
- 
- 
  
 }
 
 
 .entrar-em-contato{
-  margin-top: 20px;
-   padding: 10px;
-   width: 30px;
-   height: 50px;
-   border: solid 1px ;
-   color: rgb(244, 244, 244);
-   border-radius: 12px 0px ;
+    margin-top: 20px;
+    padding: 10px;
+    width: 30px;
+    height: 50px;
+    border: solid 1px ;
+    color: rgb(244, 244, 244);
+    border-radius: 12px 0px ;
  }
 
 
  .entrar-em-contato:hover{
     background: #e1e4e6;
     color: #000000;
-
  }
 
 .img2{
- margin-top: 100px;
-  animation: float 6s ease-in-out infinite;
+    margin-top: 100px;
+    animation: float 6s ease-in-out infinite;
 }
 
 
@@ -319,63 +308,60 @@ li, a, button {
   }
 }
 
+/*Estilização Container Fotos aereas IMAGENS E VIDEOS*/
+.texto-fotos{
 
+letter-spacing: 8px;
+font-size: 20px;
 
-
-
-/*Estilização Container IMAGENS E VIDEOS*/
-
-
-
+}
 .container-imagensevideos {
   display: flex;
   justify-items: center;
   justify-content: center;
-
   background-color:rgba(0, 0, 0, 0.932);
-  
-  height: 530px;
-  
+  height: 600px;
   }
+
   .slider {
-    
-    width: 900px;
-    overflow: hidden;
-    position: relative;
+  width: 900px;
+  overflow: hidden;
+  position: relative;
 }
 
 .slide {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
 }
 
 .slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .slide:first-child {
-    opacity: 1;
+  opacity: 1;
 }
 
 .slider:hover .slide {
-    transition: none; /* Remove a transição ao passar o mouse */
+  transition: none; /* Remove a transição ao passar o mouse */
 }
 
 .slider:hover .slide.active {
-    opacity: 1; /* Garante que o slide ativo permaneça visível */
+  opacity: 1; /* Garante que o slide ativo permaneça visível */
 }
 
+/*Estilização Container Fotos Aereas*/
 
 
 
-/*Estilização Container Projects CLients*/
+/*Estilização Container CLients*/
 
 .titulo-projects {
   display: flex;
@@ -383,66 +369,42 @@ li, a, button {
   justify-items: center;
   padding: 20px;
   height: 20px;
- 
-  background-color: #000000b5;
+  background-color: #000000b1;
+  letter-spacing: 8px;
 }
 
-
-
-.titulo-projects h3 {
-margin-top: -6px;
-
-
-  text-align: center;
-  background-color: #eaedf1;
-  font-size: 23px;
+.texto-clients {
+  
+color: #ffffff;
+font-size: 20px;
+  
 }
 
-
-
-
-
-
-
-/*Estilização Makers Parceiro Videos1*/
+/*Estilização Clients Parceiro Videos1*/
 
 .contorno-fileira{
   display: flex;
   justify-content: center;
   justify-items: center;
-  background-color: #050505;
   background-image: url(/src/img/nuvem.jpg);
- 
-background-repeat: no-repeat;
-background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  gap: 10px;
+  
 
 }
 
-.container-fileira-video1, .container-fileira-video2, .container-fileira-video3{
+.container-fileira-video1  .container-fileira-video2, .container-fileira-video3{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+   margin-top: 20px;
+   
+}
 
-display: flex;
-justify-content: center;
-margin-bottom: 20px;
-margin-top: 20px;
-}
-a{
-  color: black;
-}
 
 
 /*Estilização Makers Parceiro Videos1*/
-
-
-
-
-.texto{
-  
-width: 300px;
-margin-left: 10px;
-  text-align:center;
-  margin-top: 20px;
-  color: #000000;
-}
 
 
 
@@ -450,8 +412,12 @@ margin-left: 10px;
 
 
 /*Estilização clients Parceiro Videos3*/
+.video3 a, .video2 a, .video1 a {
+color: #000000;
 
-.video3, .video2, .video1{
+}
+
+.video2, .video1 {
   padding: 10px;
   height: 490px;
   display: flex;
@@ -461,29 +427,50 @@ margin-left: 10px;
   width: 324px;
   background-color: #ffffff;
   font-size: 13px;
+  color: #000000;
 }
 
+.video3 {
+  padding: 10px;
+  height: 490px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top: -12px;
+  width: 324px;
+  background-color: #ffffff;
+  font-size: 13px;
+  color: #000000;
+}
+
+
 .titulo-video3, .titulo-video2, .titulo-video1{
- 
   margin-top: -0px;
   text-align: center;
   background-color: #ffffff;
+
 }
 
-.texto3, .texto2{
+ .texto3, .texto2{
   margin-top: 10px;
   margin-top: 10px;
-  text-align: center;
+  text-align: justify;
+  width: 300px;
+  font-size: 12px;
+  margin-left: 12px;
+}
+
+ .texto{
+  margin-top: 10px;
+  margin-top: 10px;
+  text-align: justify;
+  width: 270px;
+  font-size: 13px;
+  margin-left: 25px;
 }
 
 
-
-
-
-
-/*Estilização Makers Fileira 2*/
-
-/*Estilização Container Sobre/About*/
+/*Estilização Container Rede Social Sobre/About*/
 .container-redes {
   display: flex;
   justify-content: center;
@@ -493,18 +480,16 @@ margin-left: 10px;
   color: #edf0f1;
   background-color: #000000;
   gap: 20PX;
-  
   padding: 20px;
   
 }
 .container-redes a{
-color: #ffffff;
-font-size: 14px;
+  color: #ffffff;
+  font-size: 14px;
 }
 
 
 .container-rodape{
-
   background-color: #000000;
   display: flex;
   justify-content: center;
@@ -514,7 +499,6 @@ font-size: 14px;
 }
 .container-rodape i{
   margin-left: 12px;
-  
   color: white;
 }
 
@@ -531,8 +515,240 @@ font-size: 14px;
 
 
 
-/*Estilização Container Rodapé*/
 
+
+
+
+
+
+
+
+
+/*RESPONSIVE*/
+
+/* --- Media Query para telas com largura máxima de 415px --- */
+
+@media (max-width: 415px) { /* Este é o breakpoint, ajuste conforme necessário */
+   
+
+    .whatsapp-button {
+        bottom: 15px; /* Ajuste para não ficar tão próximo da borda */
+        right: 65px;
+        width: 50px; /* Reduzido para mobile */
+        height: 50px; /* Reduzido para mobile */
+        font-size: 25px; /* Tamanho do ícone ajustado */
+    }
+
+    .whatsapp-button img {
+        width: 35px; /* Tamanho da imagem ajustado */
+    }
+
+    .whatsapp-button:hover {
+        width: 52px; /* Pequeno ajuste no hover */
+        height: 52px;
+        background-color: #0caa09e0;
+    }
+
+
+/*Estilização Menu */
+
+.logo{
+  margin-left: 0px;
+  width: 58px;
+  height: 58px;
+ 
+}
+
+nav {
+  width: 318px;
+  background: #f2f3f6e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+
+  font-size: 12px;
+  padding: 0 15px;
+  color: #000000;
+  text-decoration: none;
+  
+}
+
+
+
+/*Estilização Menu */
+
+.container-menu {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+  height: 120px;
+  margin-top: 0px;
+}
+
+
+    .container-home {
+        gap: 0px; /* Reduzido o gap */
+        padding: 20px 15px; /* Padding ajustado */
+        flex-direction: column; /* Empilha itens verticalmente */
+        text-align: center; /* Centraliza o texto */
+        background-color: #00000070;
+        height: 10px;
+    }
+
+    .container-home h1 {
+      
+        font-size: 35px; /* Tamanho da fonte menor para mobile */
+        line-height: 1.3; /* Melhor legibilidade */
+    }
+
+    /* --- Subtítulo --- */
+    .conteudo-subtitulo {
+        padding: 15px; /* Ajuste de padding */
+        font-size: 12px; /* Fonte menor */
+        line-height: 1.4; /* Melhor legibilidade */
+        margin-top: -10px;
+    }
+
+    /* --- Seção de Serviços --- */
+    .container-servicos-titulo {
+        padding: 15px;
+        height: auto; /* Altura flexível */
+    }
+
+    .container-servicos-titulo h2 {
+        margin-top: 0; /* Removida margem negativa */
+        letter-spacing: 3px; /* Ajuste no espaçamento da letra */
+        font-size: 22px; /* Fonte menor */
+    }
+
+    .container-servicos {
+        flex-direction: column; /* Empilha os itens verticalmente */
+        gap: 20px; /* Reduzido o espaçamento */
+        height: auto; /* Altura flexível */
+        padding: 20px 10px; /* Adicionado padding */
+    }
+
+    .solicite-orcamento-titulo {
+        width: 90%; /* Largura percentual */
+        margin: 0 auto; /* Centraliza */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .container-conteudo1 {
+        width: 90%; /* Largura percentual */
+        margin: 0 auto; /* Centraliza */
+        text-align: justify;
+        font-size: 13px; /* Fonte menor */
+        height: auto; /* Altura flexível */
+        padding: 0 5px; /* Ajuste leve do padding */
+    }
+
+    .conteudo1 {
+        width: 95%; /* Largura percentual */
+        max-width: 380px; /* Limite máximo para não ficar muito grande */
+        height: auto; /* Altura flexível */
+        margin: 20px auto; /* Centraliza e adiciona margem vertical */
+        padding: 15px; /* Adicionado padding */
+    }
+
+    .conteudo1, .img3 { /* Se .img3 é uma imagem dentro de .conteudo1 */
+        margin-left: auto; /* Centraliza */
+        margin-right: auto; /* Centraliza */
+        display: block; /* Garante que margin:auto funcione */
+    }
+
+    h3 {
+        margin: 0 auto 15px; /* Centraliza e ajusta margem */
+        font-size: 17px; /* Fonte menor */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .entrar-em-contato {
+        margin-top: 15px;
+        width: 150px; /* Largura ajustada */
+        height: auto; /* Altura flexível */
+        padding: 10px 15px;
+        display: block; /* Para centralizar com margin auto */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img2 {
+        margin-top: 50px; /* Ajuste da margem */
+        max-width: 90%; /* Garante que a imagem não ultrapasse a largura da tela */
+        height: auto; /* Mantém a proporção */
+        display: block; /* Para centralizar */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Animação Float - Mantida, mas com valores ajustados */
+    @keyframes float {
+        0%, 100% {
+            transform: translateY(10px); /* Movimento menor */
+        }
+        50% {
+            transform: translateY(-30px); /* Movimento menor */
+        }
+      }
+
+    /* --- Container Fotos Aéreas (Imagens e Vídeos) --- */
+    .container-imagensevideos {
+        height: auto; /* Altura flexível */
+        padding: 15px 0; /* Adiciona padding vertical */
+        flex-direction: column; /* Se houver múltiplos elementos, empilha-os */
+    }
+
+    .slider {
+        width: 95%; /* Largura percentual */
+        max-width: 400px; /* Limite de largura */
+        height: 250px; /* Altura fixa ou ajustar para flexível se necessário */
+        margin: 0 auto; /* Centraliza */
+    }
+
+  
+
+    .slide img {
+        /* Certifique-se de que a imagem preenche o slide */
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* --- Container Clients (Projetos) --- */
+.titulo-projects{
+display: flex;
+justify-content: center;
+justify-items: center;
+
+}
+
+.texto-clients{
+  margin-top: -14px;
+  margin-bottom: 0px;
+}
+.container-contorno{
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+  .contorno-fileira{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: #0a8703;
+    flex-direction: column;
+  }
+
+
+}
 
 
 
