@@ -386,7 +386,7 @@ font-size: 20px;
   display: flex;
   justify-content: center;
   justify-items: center;
-  background-image: url(/src/img/nuvem.jpg);
+  background-color: #000000;
   background-repeat: no-repeat;
   background-size: cover;
   gap: 10px;
@@ -533,7 +533,7 @@ color: #000000;
 
     .whatsapp-button {
         bottom: 15px; /* Ajuste para não ficar tão próximo da borda */
-        right: 65px;
+        right: 6px;
         width: 50px; /* Reduzido para mobile */
         height: 50px; /* Reduzido para mobile */
         font-size: 25px; /* Tamanho do ícone ajustado */
@@ -777,7 +777,7 @@ justify-items: center;
     display: flex;
     justify-content: center;
     justify-items: center;
-    background-color: #0a8703;
+    background-color: #000000;
     flex-direction: column;
   }
 
